@@ -5,39 +5,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Email Template</title>
+  <style>
+    /* Global styles */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Responsive styles */
+    @media screen and (max-width: 600px) {
+      .email-container {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+    }
+  </style>
 </head>
 
 <body style="margin: 0; padding: 0;">
-  <div style="max-width: 600px; margin: 0 auto;">
-    <table style="width: 100%; border-collapse: collapse;">
-      <tr>
-        <td style="text-align: center;">
-          <a style="text-decoration: none; display: block;" href="https://ig-ns.org/" target="_blank">
-            <img style="display: block; width: 100%; max-width: 600px; margin: 0; padding: 0; border: 0;"
-              src="header.png" alt="Header Image">
-          </a>
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align: center;">
-          <a style="text-decoration: none; display: block;" href="https://form.jotform.com/231495957004056"
-            target="_blank">
-            <img style="display: block; width: 100%; max-width: 600px; margin: 0; padding: 0; border: 0;" src="BODY.png"
-              alt="Main Image">
-          </a>
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align: center;">
-          <a style="text-decoration: none; display: block;"
-            href="https://conferences.ig-ns.org/IgNS-2023/Program-Details" target="_blank">
-            <img style="display: block; width: 100%; max-width: 600px; margin: 0; padding: 0; border: 0;"
-              src="footer.png" alt="Footer Image">
-          </a>
-        </td>
-      </tr>
-    </table>
-  </div>
+  <table class="email-container" style="width: 100%; max-width: 600px; margin: 0 auto; border-collapse: collapse;">
+    <tr>
+      <td style="text-align: center;">
+        <a style="text-decoration: none; display: block;" href="https://ig-ns.org/" target="_blank">
+          <img style="display: block; width: 100%; max-width: 600px; margin: 0; padding: 0; border: 0;" src="header.png"
+            alt="Header Image">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        <a style="text-decoration: none; display: block;" href="https://form.jotform.com/231495957004056"
+          target="_blank">
+          <img style="display: block; width: 100%; max-width: 600px; margin: 0; padding: 0; border: 0;" src="BODY.png"
+            alt="Main Image">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        <a style="text-decoration: none; display: block;" href="https://conferences.ig-ns.org/IgNS-2023/Program-Details"
+          target="_blank">
+          <img style="display: block; width: 100%; max-width: 600px; margin: 0; padding: 0; border: 0;" src="footer.png"
+            alt="Footer Image">
+        </a>
+      </td>
+    </tr>
+  </table>
 </body>
 
 </html>
